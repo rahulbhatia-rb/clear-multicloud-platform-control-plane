@@ -1,0 +1,10 @@
+{
+  "multicloud": {},
+  "kubernetes": {},
+  "linkerd": {},
+  "gitops": {},
+  "iac": {},
+  "observability": {},
+  "reliability": {},
+  "cicd": {}
+}
