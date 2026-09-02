@@ -1,0 +1,87 @@
+{
+  "multicloud": {
+    "cloud_placement_policy": "verified",
+    "cloud_specific_modules": "verified",
+    "portable_platform_contract": "verified",
+    "region_metadata": "verified",
+    "data_residency": "verified",
+    "cost_model": "verified",
+    "blast_radius_boundaries": "verified",
+    "dependency_mapping": "verified"
+  },
+  "kubernetes": {
+    "requests_limits": "verified",
+    "health_probes": "verified",
+    "pdb": "verified",
+    "topology_spread": "verified",
+    "scaling_strategy": "verified",
+    "workload_identity": "verified",
+    "network_policy": "verified",
+    "immutable_images": "verified",
+    "graceful_shutdown": "verified",
+    "owner_slo": "verified"
+  },
+  "linkerd": {
+    "mtls": "verified",
+    "service_identity": "verified",
+    "telemetry": "verified",
+    "authorization_policy": "verified",
+    "proxy_coverage": "verified",
+    "certificate_monitoring": "verified",
+    "control_plane_health": "verified",
+    "overhead_monitoring": "verified"
+  },
+  "gitops": {
+    "argocd": "verified",
+    "git_source_of_truth": "verified",
+    "applicationsets": "verified",
+    "cluster_labels": "verified",
+    "staged_rollout": "verified",
+    "drift_reconciliation": "verified",
+    "rollback": "verified",
+    "deployment_audit": "verified"
+  },
+  "iac": {
+    "terraform": "verified",
+    "remote_state": "verified",
+    "locking": "verified",
+    "reviewed_plan": "verified",
+    "provider_modules": "verified",
+    "encryption_defaults": "verified",
+    "ownership_tags": "verified",
+    "backup_controls": "verified",
+    "drift_detection": "verified"
+  },
+  "observability": {
+    "metrics": "verified",
+    "logs": "verified",
+    "traces": "verified",
+    "deployment_events": "verified",
+    "mesh_metrics": "verified",
+    "cluster_capacity": "verified",
+    "cloud_dependency_health": "verified",
+    "cost_signals": "verified",
+    "slos": "verified",
+    "alert_owner": "verified"
+  },
+  "reliability": {
+    "zone_failure": "verified",
+    "cluster_failure": "verified",
+    "region_failure": "verified",
+    "cloud_failure": "verified",
+    "shared_control_plane_review": "verified",
+    "dns_failure": "verified",
+    "identity_failure": "verified",
+    "restore_test": "verified"
+  },
+  "cicd": {
+    "immutable_artifact": "verified",
+    "test_gate": "verified",
+    "security_scan": "verified",
+    "iac_validation": "verified",
+    "health_gate": "verified",
+    "progressive_delivery": "verified",
+    "rollback": "verified",
+    "artifact_provenance": "verified"
+  }
+}
